@@ -1,0 +1,1 @@
+new SimpleSlider('.page-slider');

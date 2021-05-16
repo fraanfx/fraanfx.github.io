@@ -1,0 +1,44 @@
+.grid-container{
+	display: grid;
+	grid-template-columns: repeat(8, 70px);
+	grid-template-rows: repeat(2, 70px);
+	grid-gap: 8px 8px;
+	justify-content: center;
+}
+.bookshelf{
+	text-align: center;
+     text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2rem -2px 2rem 0;
+	padding: 3rem;
+	padding-bottom: 5 rem;
+		}
+.center-grid{
+	margin-top: 40%;
+}
+.grid-item{
+	width: 70px;
+	height: 70px;	
+}
+
+@media screen and (max-width: 768px){
+		
+		.grid-container{
+			display: grid;
+			grid-template-columns: repeat(6, 70px);
+		}
+	}
+
+@media screen and (max-width: 600px){
+		
+		.grid-container{
+			display: grid;
+			grid-template-columns: repeat(4, 70px);
+			grid-template-rows: repeat(4, 70px);
+		}
+	}
+
+
+
+/*
+	190-270=8 240-345=4
