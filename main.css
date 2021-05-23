@@ -743,13 +743,20 @@ input[type="submit"]:hover{
 			font-size: 4rem;
 		}
 		.timeline ul{
+			width: 90%;
 			margin: 0 0 0 auto;
 		}
+		.timeline .date { 
+			margin: 1.8rem;
+			margin-bottom: 6rem;
+		}
 		.timeline .date::before{
-			left: -20rem;
+			left: -4rem;
+			top: -2rem;
 		}
 		.timeline .date::after{
-			left: -5.9rem;
+			left: -3.7rem;
+			top: -2rem;
 		}
 
 }
@@ -785,11 +792,18 @@ input[type="submit"]:hover{
 		order:  1;
 	}
 	.portfolio-description{
+		width: 100%;
 		margin: 0;
 		order: 2;
 	}
+	.timeline ul{
+		padding: 1rem;
+	}
 	.timeline p{
 		font-size: 1.6rem;
+	}
+	.timeline .date::before{
+		font-size: 1.4rem;
 	}
 	.timeline .date::before{
 		font-size: 1.4rem;
