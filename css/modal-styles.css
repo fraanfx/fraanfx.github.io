@@ -47,12 +47,16 @@
 }
 
 .modal-header {
+  position: fixed;
+  width: 100%;
   padding: 10px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #eee;  
   min-height: 6%;
+  background-color: #221e3f;
+
 }
 
 .modal-header .title {
@@ -80,7 +84,7 @@
 
 
 .modal-body {
-  margin: 0 5rem;
+  margin: 50px 5rem;
   display: flex;
   flex-direction: column;
   padding: 10px 15px;

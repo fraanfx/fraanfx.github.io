@@ -16,7 +16,7 @@
 	--font2: 'Arial';
 	--font3: 'The historia Demo', sans-serif;
 	--linkColorItem: #3883ff;
-	--linkColorItemHover: #2f67cd;
+	--linkColorItemHover: #1f53b2;
 	--background-image-screen: url("images/sitebg.jpg") no-repeat center fixed;
 	--backgound-image-mobile: url("images/sitebg2.jpg") no-repeat center fixed;
 
@@ -110,6 +110,26 @@ img{
 	font-size: 1.6rem;
 	font-weight: 300;
 }
+.cursor{
+	font-weight: 800;
+	margin-left: 1px;
+	animation: opacidad 0.4s alternate infinite ease-in-out;
+}
+@keyframes opacidad {
+	0% {
+	  opacity: 0.02;
+	}
+	49%{
+		opacity: 0.02;
+	}
+	50%{
+		opacity: 0.9;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+
 
 .has-margin-right{
 	margin-right: 5rem;	
@@ -406,9 +426,20 @@ li{
 	color: var(--linkColorItem);
 	transition: color 650ms;
 }
+.portfolio-description .cta .separator{
+	border-left: 0.5px solid var(--linkColorItem) ;
+}
 
-.potfolio-description .cta:hover{
+
+.portfolio-description .cta:hover{
 	color: var(--linkColorItemHover);
+}
+.technologies-container{
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-gap: 8px 8px;
+	justify-content: center;
+	margin-top: 15px
 }
 
 /*End services*/

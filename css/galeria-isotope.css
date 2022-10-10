@@ -78,6 +78,7 @@ ul.filters > li.active > a{
 	border: 1px solid #eee;
 	background-color: #fff;
 	box-shadow: 1px 1px 1.5px rgba(0,0,0,0.075);
+	cursor: pointer;
 }
 
 .card-head{
