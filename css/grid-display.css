@@ -19,7 +19,33 @@
 .grid-item{
 	width: 70px;
 	height: 70px;	
+	position: relative;
 }
+.grid-item:hover > a > img,
+.grid-item:hover > a > svg,
+.grid-item:hover > a > div > svg,
+.grid-item:hover > a > div > img
+{
+	opacity: 0.3;
+	transition: 0.2s ease all;
+}
+.grid-item > a > span{
+	font-weight: 800;
+	top: 40%;
+	right: 0;
+	position: absolute;
+	opacity: 0; 
+	transform: translateY(30px);
+	transition: 0.2s ease all;
+	text-align: center;
+	min-width: 100%;
+}
+.grid-item:hover > a > span{
+	opacity: 1;
+	transition: 0.2s ease all;
+	transform: translateY(0px);
+}
+
 
 @media screen and (max-width: 768px){
 		
