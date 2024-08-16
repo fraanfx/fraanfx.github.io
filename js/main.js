@@ -74,6 +74,15 @@ $(document).ready(function () {
 	
 });
 
+document.addEventListener("DOMContentLoaded", (function(){
+	const scrollBar = document.getElementById('scrollbar');
+	window.addEventListener("scroll", function(){
+	  let documentHeight = this.document.documentElement
+		  , totalScrolled = Math.round(((documentHeight.scrollTop || document.body.scrollTop) / ((documentHeight.scrollHeight || documentHeight.body.scrollHeight) - documentHeight.clientHeight)) * 100)
+		scrollBar.style.width = totalScrolled + "%"
+  })}));
+
+
 function inicializarAno(){
   
    document.getElementById('ano').appendChild(document.createTextNode(new Date().getFullYear()))

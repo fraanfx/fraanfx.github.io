@@ -7,7 +7,7 @@
 }
 :root{
 	--background-color1: #221e3f; 
-	--background-color2: #180834;	 	/*	#16162d; */
+	--background-color2: #16162d;	 	/*	 180834 */
 	--background-color3: #909590;	 		/* #313534; */
 	--principalColor:	#896df0;	 	/*	#ffe838; */
 	--secondaryColor: #00FDDC;		 	/*	#fd57bf; */
@@ -27,7 +27,7 @@ html {
 	font-size: 10px;
 	font-family: 'Roboto', sans-serif;
 	color: #eee;
-	background-color: var(--background-color1);
+	background-color: #221E3F;
 }
 
 body {
@@ -115,6 +115,15 @@ img{
 	font-weight: 800;
 	margin-left: 1px;
 	animation: opacidad 0.4s alternate infinite ease-in-out;
+}
+#scrollbar{
+	position: fixed;
+    top: 0px;
+    display: block;
+    height: 2px;
+    width: 100vw;
+    background: linear-gradient(90deg, rgb(137, 109, 240)  25%, rgb(0, 255, 247) 100%);  
+	z-index: 1000;
 }
 @keyframes opacidad {
 	0% {
@@ -501,7 +510,7 @@ li{
 	left: -8rem;
 	height: 1.5rem;
 	width: 1.5rem;
-	background-color: var(--background-color3);
+	background-color: var(--principalColor);
 }
 /*End timeline*/
 
@@ -654,7 +663,7 @@ input[type="submit"]:hover{
 /*Start animations*/
 @keyframes pulse{
 	0%{
-		box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+		box-shadow: 0 0 0 0 rgb(87 253 238 / 99%) ;
 	}
 	70%{
 		box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);

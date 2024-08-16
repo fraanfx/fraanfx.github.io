@@ -1,21 +1,6 @@
 
 
-:root{
-	--background-color1:   #283845; 		/* #221e3f; */
-	--background-color2: #384D48;	 	/*	#16162d; */
-	--background-color3: #909590;	 		/* #313534; */
-	--principalColor:	#896df0;	 	/*	#ffe838; */
-	--secondaryColor: #00FDDC;		 	/*	#fd57bf; */
-	--secondaryColor-Border: #1B998B; 		/*	#fd57c09d; */
-	--font1: 'Roboto', sans-serif;
-	--font2: 'Arial';
-	--font3: 'The historia Demo', sans-serif;
-	--linkColorItem: #3883ff;
-	--linkColorItemHover: #2f67cd;
-	--background-image-screen: url("images/sitebg.jpg") no-repeat center fixed;
-	--backgound-image-mobile: url("images/sitebg2.jpg") no-repeat center fixed;
 
-}
 .filters{
     text-align: center;
 }

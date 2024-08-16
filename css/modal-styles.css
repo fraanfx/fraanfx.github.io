@@ -3,9 +3,9 @@
 }
 
 :root{
-	--background-color1:   #283845; 		/* #221e3f; */
-	--background-color2: #384D48;	 	/*	#16162d; */
-	--background-color3: #909590;	 		/* #313534; */
+	/* --background-color1:   #283845; 		#221e3f;
+	--background-color2: #384D48;	 		#16162d;
+	--background-color3: #909590;	 		#313534; */
 	--principalColor:	#896df0;	 	/*	#ffe838; */
 	--secondaryColor: #00FDDC;		 	/*	#fd57bf; */
 	--secondaryColor-Border: #1B998B; 		/*	#fd57c09d; */
