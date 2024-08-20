@@ -435,6 +435,9 @@ li{
 	text-transform: uppercase;
 	color: var(--linkColorItem);
 	transition: color 650ms;
+	border: 1px solid transparent;
+    padding: .375rem .75rem;
+    line-height: 1.5;
 }
 .portfolio-description .cta .separator{
 	border-left: 0.5px solid var(--linkColorItem) ;
