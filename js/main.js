@@ -51,6 +51,11 @@ $(document).ready(function () {
 		$('.menu-toggler').removeClass('open');
 		$('.top-nav').removeClass('open');
 	});
+	$('.top-nav').on('click', function () {
+		$('.menu-toggler').removeClass('open');
+		$('.top-nav').removeClass('open');
+	});
+
 	$('nav a[href="#"]').on('click', function () {
 		$('html, body').animate(
 		{

@@ -123,7 +123,7 @@ img{
     height: 2px;
     width: 0;
     background: linear-gradient(90deg, rgb(137, 109, 240)  25%, rgb(0, 255, 247) 100%);  
-	z-index: 1000;
+	z-index: 50001;
 }
 @keyframes opacidad {
 	0% {
@@ -176,10 +176,13 @@ header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 
 li{
 	margin: 0 2rem;
+	z-index: 52000;
+	min-width: none;
 }
 
 .nav-link{
@@ -213,6 +216,9 @@ li{
 	cursor: pointer;
 	z-index: 55000;
 	transition: transform 650ms ease-out;
+}
+.menu-toggler.fixedNav{
+	position: fixed;
 }
 .menu-toggler.open{
 	transform: rotate(-45deg);
