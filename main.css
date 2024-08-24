@@ -181,8 +181,6 @@ header{
 
 li{
 	margin: 0 2rem;
-	z-index: 52000;
-	min-width: none;
 }
 
 .nav-link{
