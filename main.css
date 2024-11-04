@@ -318,6 +318,12 @@ li{
 .profile-img{
 	flex: 1;
 	margin-right: 5rem;
+	text-align: center;
+}
+
+.profile-img > img{
+	max-height: 500px;
+	width: auto;
 }
 
 .about-details{
@@ -457,6 +463,11 @@ li{
 	grid-gap: 8px 8px;
 	justify-content: center;
 	margin-top: 15px
+}
+.onear{
+	width: 100%;
+	height: auto;
+	aspect-ratio: 1;
 }
 
 /*End services*/
