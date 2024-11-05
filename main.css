@@ -785,6 +785,10 @@ input[type="submit"]:hover{
 		.about-heading h1{
 			font-size: 8rem;
 		}
+		.profile-img > img{
+			max-width: 100%;
+			height: auto;
+		}
 		.section-heading h1{
 			font-size: 3rem;
 		}
@@ -842,6 +846,10 @@ input[type="submit"]:hover{
 	}
 	.profile-img{
 		margin: 0 0 7rem 0;
+	}
+	.profile-img > img{
+		max-width: 100%;
+		height: auto;
 	}
 	.portfolio-item{
 		flex-direction: column;
