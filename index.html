@@ -6,12 +6,12 @@
 	<title>Fran Ariño</title>
 	<!-- icono pagina -->
 	 <link rel="shortcut icon" href="./images/favicon.ico"> 
+	 <link rel="preload" as="style" onload="this.rel='stylesheet'" crossorigin="" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	  <!-- Libreria externa Animaciones https://github.com/michalsnik/aos-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <!-- FontAwesome -->
 	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous"> -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="main.css">
 	 <link rel="stylesheet" href="./css/grid-display.css">
 	 <meta name="description" content="Fran Ariño Front End UX portfolio">
@@ -40,7 +40,7 @@
 				</div>
 			  </div>
 				<nav class="top-nav">
-					<ul class="nav-list">
+					<ul class="nav-list" alt="navbar">
 						<li>
 							<a href="index.html" class="nav-link">Home</a>
 						</li>
@@ -68,7 +68,7 @@
 		<!--  </div>-->
 		
 		<div class="landing-text">
-			<h1>Welcome</h1>
+			<h2>Welcome</h2>
 			<h6 ><span id="animated-text">UX Engineer</span><span class="cursor">|</span></h6>
 		
 		</div>
@@ -76,17 +76,17 @@
 	<section class="about" id="about">
 		<div class="container">
 			<div class="profile-img" data-aos="fade-out" data-aos-delay="300">
-				<img src="./images/profile-fran.JPG" alt="Fran photo">
+				<img src="./images/profile-fran.JPG" loading="lazy" alt="Fran photo">
 				
 			</div>
 			
 			<div class="about-details" data-aos="fade-up" data-aos-delay="100">
 				<div class="about-heading">
-					<h1>About</h1>
+					<h3>About</h3>
 					<h6>Myself</h6>
 				</div>
 				<p>
-					Hello, my name is Fran :), I am a young front-end programmer, specialized in DCU (User Centered Design). </p>
+					Hello, my name is Fran :), I am a experienced front-end developer, specialized in DCU (User Centered Design). </p>
 				<!--<br></br>
 					<p>	I consider myself a proactive, dynamic, decisive, self-taught, multidisciplinary person with high communication skills.
 I am passionate about the world of technology, I am continuously training to be as updated as possible and thus be prepared to access new challenges.
@@ -115,13 +115,13 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 					<div class="social-media">
 						<ul class="nav-list">
 							<li>
-								<a href="https://www.linkedin.com/in/fran-am/" class="icon-link">
+								<a href="https://www.linkedin.com/in/fran-am/"  alt="Link to fran's Linkedin" class="icon-link">
 									<i class="fab fa-linkedin"></i>
 								</a>
 							</li>
 							<br>
 							<li>
-								<a href="https://github.com/fraanfx" class="icon-link">
+								<a href="https://github.com/fraanfx" alt="Link to fraanfx's github" class="icon-link">
 									<i class="fab fa-github-square"></i>
 								</a>
 							</li>
@@ -136,7 +136,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 							<br>
 							-->
 							<li>
-								<a href="https://www.flickr.com/photos/126257045@N03/with/14713164900/" class="icon-link">
+								<a href="https://www.flickr.com/photos/126257045@N03/with/14713164900/" alt="Link to fran's flickr" class="icon-link">
 									<i class="fab fa-flickr"></i>
 								</a>
 							</li>
@@ -151,15 +151,15 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 	<section class="services" id="skills">
 		<div class="container">
 			<div class="section-heading">
-				<h1>Skills learned</h1>
-				<h6>what i can do for you</h6>
+				<h3>Skills learned</h3>
+				<h6>What i can do for you</h6>
 			</div>
 			<div class="my-skills">
 				<div class="skill" data-aos="fade-in" data-aos-delay="300">
 					<div class="icon-container">
 						<i class="fas fa-users"></i>						
 					</div>
-					<h1>User experience</h1>
+					<h3>User experience</h3>
 					<!-- <p>
 						While i was coursing the  master's degree of <b>User Centered Design</b> I learned to put into practice, prototype planning, research and evaluation techniques applying research techniques such as <b>Benchmark, Persona, Scenario, Customer Journey, Card Sorting, User testing, usability testing, A/B testing and multi variable testing.</b>
 					</p> -->
@@ -170,7 +170,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 					<div class="icon-container">
 						<i class="fas fa-paint-brush"></i>						
 					</div>
-					<h1>Design</h1>
+					<h3>Design</h3>
 					<!-- <p>During my studies of <b>Multimedia</b> I learned to use the <b> Adobe Software</b> (Photoshop, Illustrator, Indesign, LightRoom, Premiere, After Effects), 2D and 3D software like Toon Boom or Cinema 4D and also I worked as a Graphic design and audiovisual productor internship doing video editing, image editing, image retouching, illustrations and designs.</p>
 					<p>  In the  master's degree of <b>User Centered Design</b> I have made different prototypes and app designs with <b>Sketch + Invision and AxureRP</b> tools to be fully functionals. <br> <br> In <b>Multimedia</b> also learned the basics of web programming with <b> HTML5, CSS, JavaScript, JSON, PHP or C# in Unity3D.</b></p> -->
 
@@ -181,15 +181,15 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 						<!-- <i class="fas fa-paint-brush"></i> -->
 						<!-- <i class="fas fa-chart-bar"></i>	 -->					
 					</div>
-					<h1>Development</h1>
+					<h3>Development</h3>
 					
 					
 				</div>
 				
 			</div>
 			<div class="bookshelf">	
-							<h1>SOFTWARE 
-							</h1>
+							<h3>TOOLS 
+							</h3>
 							<br>
 							<br>
 							
@@ -509,7 +509,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 											<div class="" style="display:flex;width:100%;height:100%;justify-content:center;align-content:center">
 												<?xml version="1.0" encoding="utf-8"?>
 													<!-- License: MIT. Made by artcoholic: https://github.com/artcoholic/akar-icons -->
-													<svg  viewBox="0 0 24 24" fill="#FFF" xmlns="http://www.w3.org/2000/svg">
+													<svg  role="img" viewBox="0 0 24 24" fill="#FFF" xmlns="http://www.w3.org/2000/svg">
 													<path d="M12 23.9555C11.6584 23.9555 11.3395 23.8674 11.0435 23.7134L8.01449 21.9748C7.55901 21.7327 7.78675 21.6447 7.9234 21.6006C8.5383 21.4026 8.65217 21.3586 9.28986 21.0064C9.35818 20.9624 9.44928 20.9844 9.5176 21.0284L11.8406 22.3709C11.9317 22.4149 12.0455 22.4149 12.1139 22.3709L21.2008 17.2871C21.2919 17.2431 21.3375 17.1551 21.3375 17.045V6.89944C21.3375 6.7894 21.2919 6.70137 21.2008 6.65735L12.1139 1.59556C12.0228 1.55155 11.9089 1.55155 11.8406 1.59556L2.75362 6.65735C2.66253 6.70137 2.61698 6.81141 2.61698 6.89944V17.045C2.61698 17.1331 2.66253 17.2431 2.75362 17.2871L5.23602 18.6736C6.57971 19.3338 7.42236 18.5636 7.42236 17.7933V7.77975C7.42236 7.6477 7.53623 7.51566 7.69565 7.51566H8.85714C8.99379 7.51566 9.13043 7.6257 9.13043 7.77975V17.7933C9.13043 19.5319 8.15114 20.5443 6.44306 20.5443C5.91925 20.5443 5.50932 20.5443 4.34783 19.9941L1.95652 18.6736C1.36439 18.3435 1 17.7273 1 17.067V6.92145C1 6.26121 1.36439 5.645 1.95652 5.31488L11.0435 0.231082C11.6128 -0.0770272 12.3872 -0.0770272 12.9565 0.231082L22.0435 5.31488C22.6356 5.645 23 6.26121 23 6.92145V17.067C23 17.7273 22.6356 18.3435 22.0435 18.6736L12.9565 23.7574C12.6605 23.8894 12.3188 23.9555 12 23.9555ZM14.8012 16.979C10.8157 16.979 9.99586 15.2184 9.99586 13.7219C9.99586 13.5898 10.1097 13.4578 10.2692 13.4578H11.4534C11.5901 13.4578 11.7039 13.5458 11.7039 13.6778C11.8861 14.8442 12.4099 15.4165 14.824 15.4165C16.7371 15.4165 17.5569 14.9983 17.5569 14.008C17.5569 13.4358 17.3292 13.0176 14.3458 12.7315C11.8634 12.4894 10.3147 11.9612 10.3147 10.0466C10.3147 8.26392 11.8634 7.20755 14.4596 7.20755C17.3747 7.20755 18.8095 8.17589 18.9917 10.2886C18.9917 10.3547 18.9689 10.4207 18.9234 10.4867C18.8778 10.5307 18.8095 10.5747 18.7412 10.5747H17.5569C17.4431 10.5747 17.3292 10.4867 17.3064 10.3767C17.0331 9.16624 16.3271 8.7701 14.4596 8.7701C12.3644 8.7701 12.1139 9.47435 12.1139 10.0025C12.1139 10.6408 12.4099 10.8388 15.234 11.191C18.0352 11.5431 19.3561 12.0493 19.3561 13.9419C19.3333 15.8786 17.6936 16.979 14.8012 16.979Z" fill="#FFF"/>
 													</svg>
 											</div>
@@ -518,7 +518,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 									</div>
 									<div class="grid-item" data-aos="fade-in" data-aos-delay="1300">
 										<a href="https://bun.sh/" target="_blank" alt="Bun">
-											<img src="./images/bun-logo.svg" alt="Balsamiq Mockups Logo">
+											<img role="img" src="./images/bun-logo.svg" alt="Balsamiq Mockups Logo">
 											<span>Bun</span>
 										</a>
 									</div>
@@ -533,7 +533,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 											<div class="" style="display:flex;width:100%;height:100%;justify-content:center;align-content:center">
 											<?xml version="1.0" encoding="utf-8"?>
 												<!-- License: MIT. Made by Garuda Technology: https://github.com/garudatechnologydevelopers/sketch-icons -->
-													<svg  viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<svg  role="img" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<circle cx="16" cy="16" r="14" fill="#1794D4"/>
 														<path d="M18 7H16V9H18V7Z" fill="white"/>
 														<path d="M10 10H12V12H10V10Z" fill="white"/>
@@ -556,7 +556,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 											<div style="display:flex;width:100%;height:100%;justify-content:center;align-content:center">
 												<?xml version="1.0" encoding="utf-8"?>
 <!-- License: MIT. Made by vscode-icons: https://github.com/vscode-icons/vscode-icons -->
-					<svg  viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+					<svg  role="img" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
 
 					<title>file_type_cypress</title>
 
@@ -599,7 +599,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 									<div class="grid-item" data-aos="fade-in" data-aos-delay="1550"> 
 										
 										<a href="https://github.com/" target="_blank">
-											<svg viewBox="0 0 2350 2315" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+											<svg viewBox="0 0 2350 2315" version="1.1" role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 												<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 													<g id="github-1" fill="#FFFFFF" fill-rule="nonzero">
 														<path d="M1175,0 C525.8,0 0,525.8 0,1175 C0,1727.2 378.9,2185.5 890.1,2314.7 C884.2,2300 881.3,2279.4 881.3,2258.9 L881.3,2059.1 L734.4,2059.1 C655.1,2059.1 581.6,2023.9 549.3,1959.2 C511.1,1888.7 505.2,1780 408.3,1712.4 C378.9,1688.9 402.4,1665.4 434.7,1668.3 C496.4,1685.9 546.3,1727.1 593.3,1788.7 C640.3,1850.4 660.9,1865.1 749,1865.1 C790.1,1865.1 854.7,1862.2 913.5,1853.3 C945.8,1771 1001.6,1697.6 1069.2,1662.4 C675.6,1615.4 487.6,1421.5 487.6,1157.1 C487.6,1042.5 537.5,933.8 619.8,839.8 C593.4,748.7 558.1,560.7 631.6,487.3 C807.9,487.3 913.6,601.9 940,631.2 C1028.1,601.8 1125.1,584.2 1224.9,584.2 C1327.7,584.2 1421.7,601.8 1509.8,631.2 C1536.2,601.8 1642,487.3 1818.2,487.3 C1888.7,557.8 1856.4,748.7 1827,839.8 C1909.3,930.9 1956.3,1042.5 1956.3,1157.1 C1956.3,1421.5 1771.2,1615.4 1380.6,1656.5 C1489.3,1712.3 1565.7,1870.9 1565.7,1988.4 L1565.7,2256 C1565.7,2264.8 1562.8,2273.6 1562.8,2282.4 C2021,2123.8 2350,1689.1 2350,1175 C2350,525.8 1824.2,0 1175,0 L1175,0 Z" id="Path"></path>
@@ -615,7 +615,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 																						<!-- License: MIT. Made by edent: https://github.com/edent/SuperTinyIcons -->
 																						<?xml version="1.0" encoding="utf-8"?>
 														<!-- License: MIT. Made by vscode-icons: https://github.com/vscode-icons/vscode-icons -->
-												<svg  viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title>file_type_light_rust</title><path d="M15.124,5.3a.832.832,0,1,1,.832.832h0a.831.831,0,0,1-.832-.832M5.2,12.834a.832.832,0,1,1,.832.832h0a.832.832,0,0,1-.832-.832m19.856.039a.832.832,0,1,1,.832.832.831.831,0,0,1-.832-.832h0M7.605,14.013a.76.76,0,0,0,.386-1l-.369-.835H9.074v6.545H6.144a10.247,10.247,0,0,1-.332-3.911Zm6.074.161V12.245h3.458c.179,0,1.261.206,1.261,1.016,0,.672-.83.913-1.513.913ZM8.958,24.561a.832.832,0,1,1,.832.832.831.831,0,0,1-.832-.832h0m12.331.039a.832.832,0,1,1,.832.832.832.832,0,0,1-.832-.832h0m.257-1.887a.758.758,0,0,0-.9.584l-.418,1.949a10.249,10.249,0,0,1-8.545-.041l-.417-1.949a.759.759,0,0,0-.9-.583h0l-1.721.37a10.233,10.233,0,0,1-.89-1.049h8.374c.095,0,.158-.017.158-.1V18.928c0-.086-.063-.1-.158-.1h-2.45V16.947h2.649a1.665,1.665,0,0,1,1.629,1.412c.105.413.336,1.757.494,2.187.157.483.8,1.447,1.482,1.447h4.323a10.243,10.243,0,0,1-.949,1.1Zm4.65-7.821a10.261,10.261,0,0,1,.022,1.779H25.167c-.105,0-.148.069-.148.172v.483c0,1.136-.641,1.384-1.2,1.447-.535.06-1.128-.224-1.2-.551a3.616,3.616,0,0,0-1.671-2.808c1.03-.654,2.1-1.619,2.1-2.911A3.292,3.292,0,0,0,21.44,9.8a4.559,4.559,0,0,0-2.2-.724H8.367A10.246,10.246,0,0,1,14.1,5.84l1.282,1.344a.758.758,0,0,0,1.072.026h0l1.434-1.372a10.248,10.248,0,0,1,7.015,5l-.982,2.217a.761.761,0,0,0,.386,1Zm2.448.036-.033-.343,1.011-.943a.42.42,0,0,0-.013-.595.428.428,0,0,0-.121-.081L28.2,12.483l-.1-.334.806-1.12a.422.422,0,0,0-.13-.581.43.43,0,0,0-.133-.055l-1.363-.222-.164-.306.573-1.257a.419.419,0,0,0-.236-.544.426.426,0,0,0-.146-.029l-1.383.048L25.7,7.819l.318-1.347a.421.421,0,0,0-.343-.487.435.435,0,0,0-.144,0L24.183,6.3l-.266-.219L23.966,4.7a.421.421,0,0,0-.431-.411.426.426,0,0,0-.141.028l-1.257.573-.306-.164-.222-1.363a.421.421,0,0,0-.5-.318.43.43,0,0,0-.133.055l-1.121.806-.333-.1-.483-1.293a.421.421,0,0,0-.555-.215.442.442,0,0,0-.12.08L17.418,3.39l-.343-.033L16.347,2.18a.421.421,0,0,0-.688,0l-.728,1.177-.343.033-.943-1.012a.421.421,0,0,0-.595.015.442.442,0,0,0-.08.12L12.483,3.8l-.333.1-1.12-.8a.422.422,0,0,0-.581.13.43.43,0,0,0-.055.133l-.222,1.363-.306.164L8.608,4.317a.421.421,0,0,0-.544.239.444.444,0,0,0-.028.144l.048,1.383L7.818,6.3,6.471,5.984a.421.421,0,0,0-.487.343.435.435,0,0,0,0,.144L6.3,7.819l-.218.265L4.7,8.036a.422.422,0,0,0-.383.573L4.89,9.866l-.164.306-1.363.222a.42.42,0,0,0-.318.5.43.43,0,0,0,.055.133l.806,1.12-.1.334-1.293.483a.421.421,0,0,0-.215.555.414.414,0,0,0,.081.121l1.011.943-.033.343-1.177.728a.421.421,0,0,0,0,.688l1.177.728.033.343-1.011.943a.421.421,0,0,0,.015.595.436.436,0,0,0,.119.08l1.293.483.1.334L3.1,20.972a.421.421,0,0,0,.131.581.43.43,0,0,0,.133.055l1.363.222.164.307-.573,1.257a.422.422,0,0,0,.24.545.438.438,0,0,0,.143.028l1.383-.048.219.266-.317,1.348a.42.42,0,0,0,.341.486.4.4,0,0,0,.146,0L7.818,25.7l.266.218L8.035,27.3a.419.419,0,0,0,.429.41.413.413,0,0,0,.143-.028l1.257-.573.306.164.222,1.362a.421.421,0,0,0,.5.319.407.407,0,0,0,.133-.055l1.12-.807.334.1.483,1.292a.422.422,0,0,0,.556.214.436.436,0,0,0,.119-.08l.943-1.011.343.034.728,1.177a.422.422,0,0,0,.588.1.413.413,0,0,0,.1-.1l.728-1.177.343-.034.943,1.011a.421.421,0,0,0,.595-.015.436.436,0,0,0,.08-.119l.483-1.292.334-.1,1.12.807a.421.421,0,0,0,.581-.131.43.43,0,0,0,.055-.133l.222-1.362.306-.164,1.257.573a.421.421,0,0,0,.544-.239.438.438,0,0,0,.028-.143l-.048-1.384.265-.218,1.347.317a.421.421,0,0,0,.487-.34.447.447,0,0,0,0-.146L25.7,24.183l.218-.266,1.383.048a.421.421,0,0,0,.41-.431.4.4,0,0,0-.028-.142l-.573-1.257.164-.307,1.363-.222a.421.421,0,0,0,.319-.5.434.434,0,0,0-.056-.135l-.806-1.12.1-.334,1.293-.483a.42.42,0,0,0,.215-.554.414.414,0,0,0-.081-.121l-1.011-.943.033-.343,1.177-.728a.421.421,0,0,0,0-.688Z" style="fill:#fff"/></svg>
+												<svg role="img"  viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title>file_type_light_rust</title><path d="M15.124,5.3a.832.832,0,1,1,.832.832h0a.831.831,0,0,1-.832-.832M5.2,12.834a.832.832,0,1,1,.832.832h0a.832.832,0,0,1-.832-.832m19.856.039a.832.832,0,1,1,.832.832.831.831,0,0,1-.832-.832h0M7.605,14.013a.76.76,0,0,0,.386-1l-.369-.835H9.074v6.545H6.144a10.247,10.247,0,0,1-.332-3.911Zm6.074.161V12.245h3.458c.179,0,1.261.206,1.261,1.016,0,.672-.83.913-1.513.913ZM8.958,24.561a.832.832,0,1,1,.832.832.831.831,0,0,1-.832-.832h0m12.331.039a.832.832,0,1,1,.832.832.832.832,0,0,1-.832-.832h0m.257-1.887a.758.758,0,0,0-.9.584l-.418,1.949a10.249,10.249,0,0,1-8.545-.041l-.417-1.949a.759.759,0,0,0-.9-.583h0l-1.721.37a10.233,10.233,0,0,1-.89-1.049h8.374c.095,0,.158-.017.158-.1V18.928c0-.086-.063-.1-.158-.1h-2.45V16.947h2.649a1.665,1.665,0,0,1,1.629,1.412c.105.413.336,1.757.494,2.187.157.483.8,1.447,1.482,1.447h4.323a10.243,10.243,0,0,1-.949,1.1Zm4.65-7.821a10.261,10.261,0,0,1,.022,1.779H25.167c-.105,0-.148.069-.148.172v.483c0,1.136-.641,1.384-1.2,1.447-.535.06-1.128-.224-1.2-.551a3.616,3.616,0,0,0-1.671-2.808c1.03-.654,2.1-1.619,2.1-2.911A3.292,3.292,0,0,0,21.44,9.8a4.559,4.559,0,0,0-2.2-.724H8.367A10.246,10.246,0,0,1,14.1,5.84l1.282,1.344a.758.758,0,0,0,1.072.026h0l1.434-1.372a10.248,10.248,0,0,1,7.015,5l-.982,2.217a.761.761,0,0,0,.386,1Zm2.448.036-.033-.343,1.011-.943a.42.42,0,0,0-.013-.595.428.428,0,0,0-.121-.081L28.2,12.483l-.1-.334.806-1.12a.422.422,0,0,0-.13-.581.43.43,0,0,0-.133-.055l-1.363-.222-.164-.306.573-1.257a.419.419,0,0,0-.236-.544.426.426,0,0,0-.146-.029l-1.383.048L25.7,7.819l.318-1.347a.421.421,0,0,0-.343-.487.435.435,0,0,0-.144,0L24.183,6.3l-.266-.219L23.966,4.7a.421.421,0,0,0-.431-.411.426.426,0,0,0-.141.028l-1.257.573-.306-.164-.222-1.363a.421.421,0,0,0-.5-.318.43.43,0,0,0-.133.055l-1.121.806-.333-.1-.483-1.293a.421.421,0,0,0-.555-.215.442.442,0,0,0-.12.08L17.418,3.39l-.343-.033L16.347,2.18a.421.421,0,0,0-.688,0l-.728,1.177-.343.033-.943-1.012a.421.421,0,0,0-.595.015.442.442,0,0,0-.08.12L12.483,3.8l-.333.1-1.12-.8a.422.422,0,0,0-.581.13.43.43,0,0,0-.055.133l-.222,1.363-.306.164L8.608,4.317a.421.421,0,0,0-.544.239.444.444,0,0,0-.028.144l.048,1.383L7.818,6.3,6.471,5.984a.421.421,0,0,0-.487.343.435.435,0,0,0,0,.144L6.3,7.819l-.218.265L4.7,8.036a.422.422,0,0,0-.383.573L4.89,9.866l-.164.306-1.363.222a.42.42,0,0,0-.318.5.43.43,0,0,0,.055.133l.806,1.12-.1.334-1.293.483a.421.421,0,0,0-.215.555.414.414,0,0,0,.081.121l1.011.943-.033.343-1.177.728a.421.421,0,0,0,0,.688l1.177.728.033.343-1.011.943a.421.421,0,0,0,.015.595.436.436,0,0,0,.119.08l1.293.483.1.334L3.1,20.972a.421.421,0,0,0,.131.581.43.43,0,0,0,.133.055l1.363.222.164.307-.573,1.257a.422.422,0,0,0,.24.545.438.438,0,0,0,.143.028l1.383-.048.219.266-.317,1.348a.42.42,0,0,0,.341.486.4.4,0,0,0,.146,0L7.818,25.7l.266.218L8.035,27.3a.419.419,0,0,0,.429.41.413.413,0,0,0,.143-.028l1.257-.573.306.164.222,1.362a.421.421,0,0,0,.5.319.407.407,0,0,0,.133-.055l1.12-.807.334.1.483,1.292a.422.422,0,0,0,.556.214.436.436,0,0,0,.119-.08l.943-1.011.343.034.728,1.177a.422.422,0,0,0,.588.1.413.413,0,0,0,.1-.1l.728-1.177.343-.034.943,1.011a.421.421,0,0,0,.595-.015.436.436,0,0,0,.08-.119l.483-1.292.334-.1,1.12.807a.421.421,0,0,0,.581-.131.43.43,0,0,0,.055-.133l.222-1.362.306-.164,1.257.573a.421.421,0,0,0,.544-.239.438.438,0,0,0,.028-.143l-.048-1.384.265-.218,1.347.317a.421.421,0,0,0,.487-.34.447.447,0,0,0,0-.146L25.7,24.183l.218-.266,1.383.048a.421.421,0,0,0,.41-.431.4.4,0,0,0-.028-.142l-.573-1.257.164-.307,1.363-.222a.421.421,0,0,0,.319-.5.434.434,0,0,0-.056-.135l-.806-1.12.1-.334,1.293-.483a.42.42,0,0,0,.215-.554.414.414,0,0,0-.081-.121l-1.011-.943.033-.343,1.177-.728a.421.421,0,0,0,0-.688Z" style="fill:#fff"/></svg>
 											<span>Rust</span>
 										</a>
 									</div>
@@ -634,7 +634,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 		<div id="overlay"></div>
 		<div class="container">
 			<div class="section-heading">
-				<h1>Portfolio</h1>
+				<h3>Portfolio</h3>
 				<h6>View some of my recents work</h6>
 			</div>
 			
@@ -645,7 +645,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 				</div>
 				<div class="portfolio-description" data-aos="fade-in" data-aos-delay="300">
 					<h6>Software development</h6>
-					<h1>Cryptoworld</h1>
+					<h3>Cryptoworld</h3>
 					<p>A web app to visualize real time information about cryptocurrencies market developed with React JS, Redux toolkit, Rapid API and Antdesign. 
 					</p>
 					<div class="technologies-container">
@@ -747,7 +747,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 				
 				<div class="portfolio-description" data-aos="fade-in" data-aos-delay="300">
 					<h6>Software development</h6>
-					<h1>FEMBARRI</h1>
+					<h3>FEMBARRI</h3>
 					<p>A mobile first web app developed with Next JS, with the aim to help the small bussiness in my hood, designed on figma and developed with NextJS. 
 					</p>
 					<div class="technologies-container">
@@ -811,7 +811,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 				</div>
 				<div class="portfolio-description" data-aos="fade-in" data-aos-delay="300">
 					<h6>Software development</h6>
-					<h1>Uniswap clone</h1>
+					<h3>Uniswap clone</h3>
 					<p> A decentralized cryptocurrency exchange React application with metamask pairing, and swap ERC-20 tokens.</p>
 					<div class="technologies-container">
 						<div class="technology-icon" data-aos="fade-in" data-aos-delay="600">
@@ -891,7 +891,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 				
 				<div class="portfolio-description" data-aos="fade-in" data-aos-delay="300">
 					<h6>CMS Web Developmen</h6>
-					<h1>Adsmurai Site</h1>
+					<h3>Adsmurai Site</h3>
 					<p>A fully functional website designed in Figma and developed with Hubspot CMS Platform
 					</p>
 					<div class="technologies-container">
@@ -998,7 +998,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 				</div>
 				<div class="portfolio-description" data-aos="fade-in" data-aos-delay="300">
 					<h6>Software development</h6>
-					<h1>Signature Generator</h1>
+					<h3>Signature Generator</h3>
 					<p>A fully functional automated HTML signature generator that enables users to customize the company email signature with variables and save the user data on local storage to improve the user experience.
 					</p>
 					<div class="technologies-container">
@@ -1087,7 +1087,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 			<div class="portfolio-item">
 				<div class="portfolio-description" data-aos="fade-in" data-aos-delay="300">
 					<h6>UX/UI Design + Prototyping</h6>
-					<h1>Team share</h1>
+					<h3>Team share</h3>
 					<p>A testing and functional prototype made with Sketch and Invision that allows us to perform tests with users.
 					</p>
 					<div class="technologies-container">
@@ -1141,7 +1141,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 					</div>
 					
 					<!--<span data-modal-target="#modal-proj" class="btn cta">View Details</span>-->
-					<a class="btn cta" href="https://fran591585.invisionapp.com/console/PrototipoTFM-cken0qqtc01lq01zwa63tcyj8/cken0qrk201lw01zw7h9wezi8/play" target="_blank">View Details</a>
+					<a class="btn cta" href="https://www.figma.com/proto/YVIXnew7fJvsyRqI36M03w/StreamProTools?node-id=17-31&p=f&t=szRCLkDm7qhUVI3y-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=14%3A20" target="_blank">View Details</a>
 				</div>
 				<div class="portfolio-img" data-aos="fade-in" data-aos-delay="300">
 					<img src="images/teamshare-cover.png" alt="">
@@ -1153,7 +1153,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 				</div>
 				<div class="portfolio-description" data-aos="fade-in" data-aos-delay="300">
 					<h6>UX Prototyping</h6>
-					<h1>Cloth Shop Prototype</h1>
+					<h3>Cloth Shop Prototype</h3>
 					<p>An evaluable and functional prototype made with AxureRP that allows us to perform tests with users.
 					</p>
 					<div class="technologies-container">
@@ -1238,7 +1238,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 				
 				<div class="portfolio-description has-margin-right" data-aos="fade-in" data-aos-delay="300">
 					<h6>Web Development</h6>
-					<h1>La estrella</h1>
+					<h3>La Miga</h3>
 					<p> A website for a restaurant built with HTML, CSS and jQuery.
 					</p>
 					<div class="technologies-container">
@@ -1308,7 +1308,7 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 						
 					</div>
 					<!--<span data-modal-target="#modal-proj2" class="btn cta">View Details</span>-->
-					<a href="http://citmalumnes.upc.es/~francescam1/JS-2019/restaurante/" class="btn cta" target="_blank" data-modal="modal1">View Project</a> 
+					<a href="https://chimerical-blancmange-7cc1a5.netlify.app/" class="btn cta" target="_blank" data-modal="modal1">View Project</a> 
 				</div>
 				<div class="portfolio-img" data-aos="fade-in" data-aos-delay="300">
 					<img src="images/estrella-landing.png" alt="Cover estrella">
@@ -1339,8 +1339,8 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 					<img src="./images/puravida-shop-cover.png" alt="">
 				</div>
 				<div class="portfolio-description" data-aos="fade-in" data-aos-delay="300">
-					<h6>Webdesign - Development</h6>
-					<h1></h1>
+					<h6>Webdesign + Development</h6>
+					<h3>Puravida</h3>
 					<p>A website for a surf and skating website built with HTML, Bootstrap, jQuery, Ajax and Bubbles.js to perform interactive videos.
 					</p>
 					<div class="technologies-container">
@@ -1458,54 +1458,54 @@ For me as for Martin Leblanc: “A user interface is like a joke. If you have to
 	<section class="experience" id="experience">
 		<div class="container">
 			<div class="section-heading">
-				<h1>Work Experience</h1>
+				<h3>Work Experience</h3>
 				<h6>Past and current jobs</h6>
 			</div>
 			<div class="timeline" data-aos="fade-down" data-aos-delay="300">
 				<ul>
 					<li class="date"data-date="2024 - Current">
-						<h1>Aquasave</h1>
+						<h4>Aquasave</h4>
 						<p>
 							Solo Front end developer for a DePIN Blockchain project working with React.js, redux toolkit and helping to improve the user experience.<br> <br>
 
 							🏆 Project awarded on Colosseum, Oficial Solana Hackathon 2024.						</p>
 					</li>
 					<li class="date"data-date="2022 - 2024">
-						<h1>Hiberus</h1>
+						<h4>Hiberus</h4>
 						<p>
 							Web development for an international retail lead company with HTML5, CSS3 and JS, taking care the accesibility following the WAI - ARIA Standards, improving the user experience and the two design systems of
 public administration webapps.
 						</p>
 					</li>
 					<li class="date"data-date="2021 - 2022">
-						<h1>Enzyme</h1>
+						<h4>Enzyme</h4>
 						<p>Developing, helping to design and improving the user experience of Enzyme products with Balsamiq, Figma, Justin Mind and Hubspot CMS using technologies, languages and libraries such as HTML5, CSS3, LESS, JS, React JS, Typescript and Docker.
 
 						</p>
 					</li>
 					<li class="date"data-date="2020 - 2021">
-						<h1>Adsmurai</h1>
+						<h4>Adsmurai</h4>
 						<p>Developing, helping to design and improving the user experience of Adsmurai website with Figma and Hubspot CMS using technologies, languages and libraries such as HTML5, CSS3, JS, jQuery, Lighthouse or MS Clarity.
 
 						</p>
 					</li>
 					<li class="date"data-date="2018 - 2019">
-						<h1>Stream Pro Tools</h1>
+						<h4>Stream Pro Tools</h4>
 						<p>	Creation of wireframes for a company plugin using user centered design techniques to improve the user experience with tools like Balsamiq Mockups, Axure, Sketch, Invision and Zeplin.
 
 						</p>
 					</li>
 					<li class="date"data-date="2017 - 2018">
-						<h1>Telegim TV</h1>
+						<h4>Telegim TV</h4>
 						<p> Multimedia content producer focused on company marketing and audiovisual content producer with Adobe After Effects and Premiere for the company.
 						</p>
 					</li>
 					<li class="date"data-date="2017 - 2018">
-						<h1>Universitat politécnica de Catalunya</h1>
+						<h4>Universitat politécnica de Catalunya</h4>
 						<p> Professor of an introductory video postproduction course with Adobe After Effects and Premiere at the university for two consecutive summers.</p>
 					</li>
 					<li class="date"data-date="2015 - 2015">
-						<h1>Ponte Mas Fuerte</h1>
+						<h4>Ponte Mas Fuerte</h4>
 						<p> Creation of multimedia content focused on the company's visual marketing support and creation of landing page design.</p>
 					</li>
 				</ul>
@@ -1515,7 +1515,7 @@ public administration webapps.
 	<section class="contact" id="contact">
 		<div class="container">
 			<div class="section-heading">
-				<h1>Contact me</h1>
+				<h3>Contact me</h3>
 				<h6>Let's work together</h6>
 			</div>
 		</div>
