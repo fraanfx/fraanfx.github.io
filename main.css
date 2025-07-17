@@ -59,6 +59,12 @@ img{
 	width: 100%;
 }
 
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #00FDDC;
+  outline-offset: 4px;
+}
+
 /*End global*/
 
 /*Start reusable*/
@@ -463,7 +469,7 @@ li{
 }
 .technologies-container{
 	display: grid;
-	grid-template-columns: repeat(8, 1fr);
+	grid-template-columns: repeat(8, minmax(0, 1fr));
 	grid-gap: 8px 8px;
 	justify-content: center;
 	margin-top: 15px

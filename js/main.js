@@ -41,19 +41,61 @@ const loopPhrase  = () =>{
 	setTimeout(loopPhrase, time)
 }
 loopPhrase();
+
+
+
+
 $(document).ready(function () {
-	$('.menu-toggler').on('click', function () {
+	$('.menu-toggler').on('click keydown', function (e) {
+		if (
+			e.type === 'click' ||
+			(e.type === 'keydown' && (e.key === 'Enter' || e.key === ' '))
+		) {
+			e.preventDefault();
 		$(this).toggleClass('open');
 		$('.top-nav').toggleClass('open');
+		if ($('.top-nav').hasClass('open')) {
+			$('.nav-link').each(function() {
+				$(this).prop('tabIndex', 0); 
+			});
+		} else {
+			$('.nav-link').each(function() {
+				$(this).prop('tabIndex', -1); 
+			});
+		}
+	}
 	});
 
-	$('.top-nav .nav-link').on('click', function () {
+	$('.top-nav .nav-link').on('click keydown', function (e) {
+		if (
+			e.type === 'click' ||
+			(e.type === 'keydown' && (e.key === 'Enter' || e.key === ' '))
+		){
+		
 		$('.menu-toggler').removeClass('open');
 		$('.top-nav').removeClass('open');
+		$('.nav-link').each(function() {
+           $(this).prop('tabIndex', -1); 
+          });
+		}
 	});
+
+	$(document).on('keydown', function (e) {
+		if (e.key === 'Escape' && $('.top-nav').hasClass('open')) {
+			$('.menu-toggler').removeClass('open');
+		$('.top-nav').removeClass('open');
+		$('.nav-link').each(function() {
+           $(this).prop('tabIndex', -1); 
+          });
+		}
+	});
+
 	$('.top-nav').on('click', function () {
 		$('.menu-toggler').removeClass('open');
 		$('.top-nav').removeClass('open');
+		$('.nav-link').each(function() {
+            $(this).prop('tabIndex', -1); 
+          });
 	});
 
 	$('nav a[href="#"]').on('click', function () {
@@ -62,13 +104,16 @@ $(document).ready(function () {
 			scrollTop: $($(this).attr('href')).offset.top -100
 		}, 2000);
 	});
-	$('#up').on('click', function () {
-
-		$('html, body').animate(
-		{
-			scrollTop: 0
-		}, 2000);
-		
+	$('#up').on('click keydown', function (e) {
+		if (
+			e.type === 'click' ||
+			(e.type === 'keydown' && (e.key === 'Enter' || e.key === ' '))
+		){
+			$('html, body').animate(
+			{
+				scrollTop: 0
+			}, 2000);
+		}
 	});
 	
 	AOS.init({

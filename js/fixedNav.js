@@ -2,6 +2,8 @@
 const nav = $("#navigationBar");
   const navTop = nav.offset().top;
 const navItem = $('.menu-toggler')
+ const menuItems = $('.menu-link')
+
 $(document).ready(function () {
 	
   $(window).on("scroll", stickyNavigation);
