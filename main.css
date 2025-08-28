@@ -113,7 +113,7 @@ a:focus-visible {
 	bottom: -1rem;
 }
 
-.section-heading h6{
+.section-heading span{
 	font-size: 1.6rem;
 	font-weight: 300;
 }
@@ -291,9 +291,9 @@ li{
 	user-select: none;
 }
 
-.landing-text h6{
+.landing-text span{
 	font-size: 2rem;
-	font-weight: 300px;
+	font-weight: bold;
 }
 /*End header*/
 
@@ -316,7 +316,7 @@ li{
 	opacity: .3;
 }
 
-.about-heading h6{
+.about-heading span{
 	font-size: 2rem;
 	font-weight: 300;
 }
@@ -441,7 +441,7 @@ li{
 	margin: 1rem 0;
 }
 
-.portfolio-description h6{
+.portfolio-description span{
 	font-size: 1.5rem;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -776,7 +776,7 @@ input[type="submit"]:hover{
 		.landing-text h2{
 			font-size: 15rem;
 		}
-		.landing-text h6{
+		.landing-text span{
 			font-size: 1.7rem;
 		}
 		.nav-list{
@@ -841,7 +841,7 @@ input[type="submit"]:hover{
 	.landing-text h2{
 		font-size: 8rem;
 	}
-	.landing-text h6{
+	.landing-text span{
 		font-size: 1.4rem;
 	}
 	.nav-link{
